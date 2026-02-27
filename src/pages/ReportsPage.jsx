@@ -138,7 +138,7 @@ export default function ReportsPage() {
 
   return (
     <Box className={`reports-page ${theme === 'dark' ? 'dark-theme' : ''}`}>
-      <TopNav title="Material UI Store 23BAI70578" />
+      <TopNav title="Nova Insight Center" />
 
       <Container className="reports-content">
         <Paper className="reports-user-card reports-hero-card">

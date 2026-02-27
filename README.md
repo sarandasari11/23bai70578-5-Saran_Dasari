@@ -16,6 +16,8 @@ This project demonstrates modern frontend patterns for maintainable state manage
 
 ---
 
+> 📌 **Highlight:** Project screenshots are available in `public/Screenshots/` under the `public` folder.
+
 ## 🎯 Objective Coverage
 
 This project fulfills the Experiment 5 goals:
@@ -82,6 +84,10 @@ This project fulfills the Experiment 5 goals:
 - Centralized design tokens in `index.css` / `DarkTheme.css`
 - MUI `ThemeProvider` + custom theme factory in `src/theme/muiTheme.js`
 
+### 6) Screenshots Availability
+- Project screenshots are available under the **public folder**.
+- Path: `public/Screenshots/`
+
 ---
 
 ## 🧩 Functional Requirements Mapping
@@ -118,6 +124,7 @@ This project fulfills the Experiment 5 goals:
 ```text
 exp5/
 ├── public/
+│   └── Screenshots/
 ├── src/
 │   ├── components/
 │   │   ├── TopNav.jsx
