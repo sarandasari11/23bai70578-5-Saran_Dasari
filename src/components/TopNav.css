@@ -1,0 +1,91 @@
+.topnav-appbar {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%) !important;
+  box-shadow: var(--glow-primary) !important;
+  backdrop-filter: blur(8px);
+}
+
+.topnav-toolbar {
+  min-height: 72px !important;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+.topnav-brand {
+  cursor: pointer;
+}
+
+.topnav-title {
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.topnav-subtitle {
+  font-size: 0.72rem !important;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.35px;
+}
+
+.topnav-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.topnav-btn {
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.28) !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-radius: 999px !important;
+  padding: 0.38rem 0.85rem !important;
+  font-weight: 700 !important;
+}
+
+.topnav-btn.active {
+  background: rgba(255, 255, 255, 0.24) !important;
+  border-color: rgba(255, 255, 255, 0.45) !important;
+}
+
+.topnav-badge .MuiBadge-badge {
+  font-weight: 700;
+}
+
+.topnav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.topnav-user-chip {
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  background: rgba(255, 255, 255, 0.14) !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+
+.topnav-theme-btn {
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  background: rgba(255, 255, 255, 0.12) !important;
+  border-radius: 999px !important;
+  padding: 0.38rem 0.95rem !important;
+  font-weight: 700 !important;
+}
+
+@media (max-width: 1000px) {
+  .topnav-toolbar {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+
+  .topnav-brand,
+  .topnav-actions {
+    justify-self: center;
+  }
+}
