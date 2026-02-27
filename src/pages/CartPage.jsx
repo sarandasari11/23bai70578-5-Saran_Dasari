@@ -60,7 +60,7 @@ export default function CartPage() {
 
   return (
     <Box className={`cart-page ${theme === 'dark' ? 'dark-theme' : ''}`}>
-      <TopNav title="Nova Cart Studio" />
+      <TopNav title="Material UI Store 23BAI70578" />
 
       {/* Main Content */}
       <Box className="cart-content">

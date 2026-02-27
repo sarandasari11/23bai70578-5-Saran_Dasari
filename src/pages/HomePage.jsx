@@ -106,7 +106,7 @@ export default function HomePage() {
 
   return (
     <Box className={`home-page ${theme === 'dark' ? 'dark-theme' : ''}`}>
-      <TopNav title="Nova Commerce Lab" />
+      <TopNav title="Material UI Store 23BAI70578" />
 
       {/* Main Content */}
       <Box className="home-content">

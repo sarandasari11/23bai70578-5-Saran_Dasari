@@ -6,14 +6,16 @@
 
 .topnav-toolbar {
   min-height: 72px !important;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
+  display: flex !important;
+  justify-content: space-between;
   gap: 1rem;
   align-items: center;
+  position: relative;
 }
 
 .topnav-brand {
   cursor: pointer;
+  justify-self: start;
 }
 
 .topnav-title {
@@ -34,6 +36,9 @@
   justify-content: center;
   gap: 0.55rem;
   flex-wrap: wrap;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .topnav-btn {
@@ -58,6 +63,7 @@
   display: flex;
   align-items: center;
   gap: 0.55rem;
+  margin-left: auto;
 }
 
 .topnav-user-chip {
@@ -78,6 +84,7 @@
 
 @media (max-width: 1000px) {
   .topnav-toolbar {
+    display: grid !important;
     grid-template-columns: 1fr;
     gap: 0.65rem;
     padding-top: 0.6rem;
@@ -86,6 +93,13 @@
 
   .topnav-brand,
   .topnav-actions {
+    justify-self: center;
+  }
+
+  .topnav-links {
+    position: static;
+    left: auto;
+    transform: none;
     justify-self: center;
   }
 }
