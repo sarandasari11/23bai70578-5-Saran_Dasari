@@ -13,10 +13,9 @@ This project demonstrates modern frontend patterns for maintainable state manage
 
 ### Student ID: 23BAI70578
 ### Updated: February 27, 2026
-
+ ⭕ **Project screenshots are available in `public/Screenshots/` under the `public` folder.** 
 ---
 
-> 📌 **Highlight:** Project screenshots are available in `public/Screenshots/` under the `public` folder.
 
 ## 🎯 Objective Coverage
 
